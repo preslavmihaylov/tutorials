@@ -1,0 +1,1 @@
+{"level":"error","ts":1587194858.738872,"caller":"go-elk-exercise/main.go:29","msg":"test error","error":"error because test: 1","stacktrace":"main.main\n\t/Users/pmihaylov/programming/repos/go-elk-exercise/main.go:29\nruntime.main\n\t/usr/local/Cellar/go/1.14/libexec/src/runtime/proc.go:203"}
