@@ -1,2 +1,3 @@
-# tutorials
-A repository which contains various tutorials I've created, posted on my site - https://pmihaylov.com
+# Go ELK Exercise
+This is the supplement repo to the Go ELK Exercise.
+
