@@ -1,3 +1,3 @@
-# Go ELK Exercise
-This is the supplement repo to the Go ELK Exercise.
+# Kibana debugging tutorial
+This is a tutorial on using Kibana to debug issues \w a production web application. You can find the tutorial instructions here.
 
