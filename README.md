@@ -1,4 +1,3 @@
-# tutorials
-A repository which contains various tutorials I've created, posted on my site - https://pmihaylov.com
+# Java2Days 2020 - Threading Safely in Java
+This branch contains the examples I've demoed during the Java2Days 2020 conference for my talk - Threading safely in Java.
 
-The tutorials can be found on the different branches of the repo.
