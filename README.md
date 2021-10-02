@@ -1,4 +1,2 @@
-# tutorials
-A repository which contains various tutorials I've created, posted on my site - https://pmihaylov.com
-
-The tutorials can be found on the different branches of the repo.
+# HackConf - Concurrency Fundamentals in Practice with Java
+Contains the examples shown during the [Concurrency Fundamentals in Practice with Java](https://hackconf.bg/news/hackconf-2021-online-edition-workshops-announcement/#concurrency-fundamentals-java) workshop at [HackConf](https://hackconf.bg/)
