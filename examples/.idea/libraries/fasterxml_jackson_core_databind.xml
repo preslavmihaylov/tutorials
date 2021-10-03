@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="fasterxml.jackson.core.databind" type="repository">
+    <properties maven-id="com.fasterxml.jackson.core:jackson-databind:2.7.4" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jackson-databind-2.7.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-annotations-2.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-core-2.7.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
