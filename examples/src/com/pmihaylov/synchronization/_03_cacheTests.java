@@ -49,9 +49,6 @@ public class _03_cacheTests {
         void setValue(int key);
     }
 
-    // Not exactly the same example as in the book, but its the same principle
-    // This is an example of using non thread-safe class (HashMap)
-    // If the cache is thread-safe, it should increment a key only once
     static class UnsafeCache implements Cache {
         Map<Integer, Integer> cache = new HashMap<>();
 
@@ -66,8 +63,6 @@ public class _03_cacheTests {
         }
     }
 
-    // This uses a thread-safe class, but compound actions aren't synchronized.
-    // Hence, the class is still non thread-safe
     static class NonAtomicCompoundCache implements Cache {
         Map<Integer, Integer> cache = new ConcurrentHashMap<>();
 
