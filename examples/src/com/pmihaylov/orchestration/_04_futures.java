@@ -23,8 +23,6 @@ public class _04_futures {
             results.add(f);
         }
 
-        // TODO: Any issues with this?
-        // TODO: Exercise -> Fix the issue using CompletionService
         for (Future<TODO> futureTodo : results) {
             TODO todo = ignoreCheckedExceptions((Callable<TODO>) futureTodo::get);
             System.out.printf("processing TODO %d...\n", todo.id);

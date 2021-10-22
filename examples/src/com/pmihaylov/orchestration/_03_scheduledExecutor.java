@@ -34,7 +34,7 @@ public class _03_scheduledExecutor {
             }
         });
 
-        ignoreCheckedExceptions(() -> Thread.sleep(2000));
+        ignoreCheckedExceptions(() -> Thread.sleep(5000));
         System.out.println("shutting down executor...");
 
         exec.shutdownNow();
@@ -56,7 +56,7 @@ public class _03_scheduledExecutor {
             cnt2.incrementAndGet();
         }, 0, 500, TimeUnit.MILLISECONDS);
 
-        ignoreCheckedExceptions(() -> Thread.sleep(2000));
+        ignoreCheckedExceptions(() -> Thread.sleep(5000));
         System.out.println("shutting down executor...");
 
         exec.shutdownNow();
