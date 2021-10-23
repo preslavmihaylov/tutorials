@@ -38,7 +38,7 @@ public class EnergySource {
     /**
      * Tears down any resources the class is maintaining
      */
-    public void teardown() {
+    public synchronized void teardown() {
         replenishTimer.shutdown();
         ignoreCheckedExceptions(() -> replenishTimer.awaitTermination(5, TimeUnit.SECONDS));
     }
@@ -98,7 +98,9 @@ public class EnergySource {
     private void replenish() {
         monitor.writeLock().lock();
         try {
-            if (level < MAXLEVEL) { level += 5;  }
+            if (level < MAXLEVEL) {
+                level = Math.min(level+5, MAXLEVEL);
+            }
         } finally {
             monitor.writeLock().unlock();
         }
