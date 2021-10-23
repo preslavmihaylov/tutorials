@@ -7,7 +7,7 @@ public class EnergySource {
     //  * usage is tracking the number of times useEnergy is invoked.
     //  * level is the current energy available and it should begin at its max value 100
     //
-    // Every 1s, the level should increment automatically by 5 units.
+    // Every 1s, the level should increment automatically by 5 units but should not exceed MAXLEVEL.
     //
     // Add or modify fields as necessary.
     // Check out the Hints class if you get stuck.
@@ -56,7 +56,7 @@ public class EnergySource {
     /**
      * Stops the energy source from replenishing itself.
      */
-    public synchronized void stopEnergySource() {
+    public void stopEnergySource() {
         throw new UnsupportedOperationException("unimplemented");
     }
 }
