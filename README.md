@@ -1,4 +1,4 @@
-# tutorials
-A repository which contains various tutorials I've created, posted on my site - https://pmihaylov.com
+# Tour of Go
+A talk I gave on a [SoftUni Seminar](https://softuni.org/)
 
-The tutorials can be found on the different branches of the repo.
+Presentation - TODO
