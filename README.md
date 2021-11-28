@@ -1,4 +1,4 @@
 # Tour of Go
 A talk I gave on a [SoftUni Seminar](https://softuni.org/)
 
-Presentation - TODO
+[Slides](https://bit.ly/softuni-tour-of-go)
